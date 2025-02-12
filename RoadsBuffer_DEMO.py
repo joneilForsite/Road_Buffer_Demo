@@ -1,7 +1,7 @@
 import arcpy
 
 # Set workspace
-arcpy.env.workspace = r"C:\GIS\Projects\tasks\RoadBuffer.gdb"
+arcpy.env.workspace = r"C:\GIS\Projects\RoadBuffer.gdb"
 input_roads = "Roads"  # Input roads feature class
 
 # Create output feature class for merged buffers
